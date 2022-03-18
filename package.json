@@ -1,0 +1,25 @@
+{
+    "name": "bhailang",
+    "displayName": "BhaiLang",
+    "description": "Language support for BhaiLang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bhailang",
+            "aliases": ["BhaiLang", "bhailang"],
+            "extensions": [".bhai"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bhailang",
+            "scopeName": "source.bhai",
+            "path": "./syntaxes/bhailang.tmLanguage.json"
+        }]
+    }
+}
