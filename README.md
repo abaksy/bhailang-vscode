@@ -9,7 +9,7 @@ Syntax highlighting for the esoteric programming language called BhaiLang
 
 Coming soon: Intellisense and code completion support!
 
-![feature X\]\(img/bhai1.png\)
+![feature X](img/bhai1.png "Hello Bhai")
 
 
 ### 0.1.0
