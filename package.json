@@ -3,7 +3,7 @@
     "displayName": "BhaiLang",
     "publisher": "AronyaBaksy",
     "description": "Language support for BhaiLang",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.65.0"
     },
@@ -15,16 +15,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "bhailang",
-            "aliases": ["BhaiLang", "bhailang"],
-            "extensions": [".bhai"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "bhailang",
-            "scopeName": "source.bhai",
-            "path": "./syntaxes/bhailang.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "bhailang",
+                "aliases": [
+                    "BhaiLang",
+                    "bhailang"
+                ],
+                "extensions": [
+                    ".bhai"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "bhailang",
+                "scopeName": "source.bhai",
+                "path": "./syntaxes/bhailang.tmLanguage.json"
+            }
+        ]
     }
 }
