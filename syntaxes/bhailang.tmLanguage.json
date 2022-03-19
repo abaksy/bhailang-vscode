@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#comment"
+		},
+		{
 			"include": "#strings"
 		},
 		{
@@ -13,6 +16,9 @@
 		},
 		{
 			"include": "#numbers"
+		},
+		{
+			"include": "#stdout"
 		},
 		{
 			"include": "#identifier"
@@ -23,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.bhailang",
-					"match": "\\b(hi bhai|bye bhai|bol bhai|bhai ye hai|agar bhai|warna bhai|jab tak bhai|bas kar bhai|agla dekh bhai)\\b"
+					"match": "\\b(hi bhai|bye bhai|bhai ye hai|agar bhai|warna bhai|jab tak bhai|bas kar bhai|agla dekh bhai)\\b"
 				},
 				{
 					"name": "keyword.other",
@@ -41,6 +47,10 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"stdout" : {
+			"name": "entity.name.function.stdout.bhailang",
+			"match": "\\bbol bhai\\b"
 		},
 		"operators": {
 			"name": "keyword.operator",
@@ -341,9 +351,33 @@
 			}
 		},
 		"identifier" :{
-			"match": "(?:[a-zA-Z_]|(?:\\\\u[0-9a-fA-F]{4}|\\\\U[0-9a-fA-F]{8}))(?:[a-zA-Z0-9_]|(?:\\\\u[0-9a-fA-F]{4}|\\\\U[0-9a-fA-F]{8}))*",
+			"match": "([a-zA-Z_])[a-zA-Z0-9_]*",
 			"name": "variable.name"
-		}
+		},
+		"comment": {
+			"patterns": [
+			  {
+				"name": "comment.line.double-slash.bhailang",
+				"begin": "(^[ \\t]+)?((//)(?:\\s*((@)internal)(?=\\s|$))?)",
+				"end": "(?=$)",
+				"beginCaptures": {
+				  "0": {
+					"name": "punctuation.definition.comment.bhailang"
+				  }
+				}
+			  },
+			  {
+				"name": "comment.block.documentation.bhailang",
+				"begin": "(/\\*)(?:\\s*((@)internal)(?=\\s|(\\*/)))?",
+				"end": "\\*/",
+				"beginCaptures": {
+				  "0": {
+					"name": "punctuation.definition.comment.bhailang"
+				  }
+				}
+			  }
+			]
+		  }
 	},
 	"scopeName": "source.bhai"
 }

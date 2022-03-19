@@ -1,6 +1,6 @@
 # bhailang README
 
-This is the README for your extension "bhailang". After writing up a brief description, we recommend including the following sections.
+Syntax highlighting for the esoteric programming language called BhaiLang
 
 ## Features
 
