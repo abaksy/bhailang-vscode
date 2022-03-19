@@ -3,7 +3,7 @@
     "displayName": "BhaiLang",
     "publisher": "AronyaBaksy",
     "description": "Language support for BhaiLang",
-    "icon": "./img/bhai_logo.jpeg",
+    "icon": "img/bhai_logo.jpeg",
     "version": "0.3.0",
     "engines": {
         "vscode": "^1.65.0"
