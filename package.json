@@ -1,10 +1,15 @@
 {
     "name": "bhailang",
     "displayName": "BhaiLang",
+    "publisher": "AronyaBaksy",
     "description": "Language support for BhaiLang",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.65.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abaksy/bhailang-vscode"
     },
     "categories": [
         "Programming Languages"
