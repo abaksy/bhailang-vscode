@@ -1,6 +1,6 @@
 # bhailang README
 
-Syntax highlighting for the esoteric programming language called BhaiLang
+Syntax highlighting for the esoteric programming language called [BhaiLang](https://github.com/DulLabs/bhai-lang)
 
 ## Features
 
