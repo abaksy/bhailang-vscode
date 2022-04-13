@@ -35,6 +35,12 @@
                 "scopeName": "source.bhai",
                 "path": "./syntaxes/bhailang.tmLanguage.json"
             }
+        ],
+        "snippets": [
+            {
+                "language": "bhailang",
+                "path": "./snippets.json"
+            }
         ]
     }
 }

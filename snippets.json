@@ -1,0 +1,38 @@
+{
+	"Basic block": {
+		"prefix": "hi",
+		"body": [
+			"hi bhai",
+            "\t$0",
+            "bye bhai"
+		],
+		"description": "Hello Bhai!"
+	}, 
+    "loop": {
+        "prefix": "jab tak",
+        "body": [
+            "jab tak bhai ($1) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Bhai start loop"
+    },
+    "condn": {
+        "prefix": "agar",
+        "body": [
+            "agar bhai ($1) {",
+            "\t $0",
+            "}"
+        ],
+        "description": "Bhai agar yeh sahi hua"
+    }, 
+    "else": {
+        "prefix": "warna bhai",
+        "body": [
+            "warna bhai {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Snippet for else"
+    }
+}

@@ -1,19 +1,25 @@
-# bhailang README
+# bhailang Language Support for Visual Studio Code
 
-Syntax highlighting for the esoteric programming language called [BhaiLang](https://github.com/DulLabs/bhai-lang)
+Language support for the esoteric programming language called [BhaiLang](https://github.com/DulLabs/bhai-lang).
+Includes features such as syntax highlighting and automatic code completion.
+
 
 ## Features
 
 - Syntax Highlighting
-- Basic autocomplete
-
-Coming soon: Intellisense and code completion support!
+- Autocomplete
+- Snippets for a faster and smoother coding experience :)
 
 ![feature X](img/bhai1.png "Hello Bhai")
 
 
-### 0.1.0
+### 1.0.0
 
-Initial release of BhaiLang VS Code extension
+Welcome to the first release of the BhaiLang VS Code language support extension!
+Install it from the extension manager today!
+
+## Contribution Guide
+
+Create a pull request today! Additional support for IntelliSense is very much appreciated
 
 

@@ -20,7 +20,7 @@
         { "open": "'", "close": "'", "notIn": ["string", "comment"] },
         { "open": "\"", "close": "\"", "notIn": ["string"] },
         { "open": "`", "close": "`", "notIn": ["string", "comment"] },
-        { "open": "/**", "close": " */", "notIn": ["string"] }
+        { "open": "/**", "close": " */", "notIn": ["string"] },
     ],
     // symbols that can be used to surround a selection
     "surroundingPairs": [
@@ -31,7 +31,7 @@
         ["'", "'"]
     ],
     "indentationRules": {
-        "increaseIndentPattern": "hi bhai(\\s*)\n",
-        "decreaseIndentPattern": "\n"
+        "increaseIndentPattern": "hi bhai|{",
+        "decreaseIndentPattern": "}"
     }
 }
